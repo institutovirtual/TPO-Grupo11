@@ -1,0 +1,116 @@
+
+/* definimos la fuente "fontinstituto" para utilizar en el nombre del .instituto*/
+@font-face {
+     font-family: fontinstituto;
+    src: url(fonts/HTOWERT.TTF);
+}
+
+
+/* definimos tamaño del encabezado*/
+header{
+
+    background: white;
+    height: 100%;
+
+}
+
+
+/* definimos tamaño y color de fondo del main, utilizando un dgrade del blanco a un tono de celeste*/
+main{
+  background: linear-gradient(white 20%,rgb(6, 122, 189));
+  height: 30rem;
+
+
+}
+
+/* definimos tamaño del pie de pagina*/
+footer{
+  background: rgb(6, 122, 189);
+  height: 2rem;
+  color: white;
+  text-align: center;
+  margin-top: 0.3rem;
+  padding: 0.2rem;
+  }
+  .pie{
+    line-height: 0.1rem;
+  }
+
+
+/* definimos el nav que va a contener el logo, el nombre y el menu de tipo flex */
+  nav {
+    display: flex;
+    padding: 1em;
+    margin-bottom: 1rem;
+    text-align: center;
+    }
+
+/* definimos el nav  ul que va a contener el menu de navegacion tipo flex y vamos ajustando el formato a nuestro gusto*/
+  nav ul {
+
+      display: flex;
+       padding: 1em;
+            margin-left: 10rem;
+       margin-bottom: 1rem;
+        list-style: none;
+    margin-top: 0rem;
+
+
+  }
+ nav li {
+  flex:auto;
+  width: 7rem;
+
+}
+
+/* definimos el formato de cada una de las opciones del menu   */
+nav li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 0.2rem ;
+    border-radius: 0.4rem;
+    margin: 0.1rem;
+    background: rgb(6, 122, 189);
+
+
+
+  }
+  /* definimos que pasa cuando acercamos el mouse a las opciones del menu */
+  nav li a:hover {
+    background: blue;
+    color: white;
+  }
+
+  @media screen and (min-width: 480px) {
+     nav ul {
+      display: flex;
+      justify-content: flex-end;
+
+    }
+  }
+
+  /*definimos la clase logo. Para ajustar el logo del instituto*/
+  .logo{
+    height: 18vh;
+    width: 9vw;
+    }
+
+/*definimos la clase instituto. Para ajustar la fuente y color del nombre del instituto*/
+.instituto{
+    font-family: fontinstituto;
+    color: rgb(6, 122, 189);
+    font-size: 2rem;
+    text-align: left;
+    line-height: 4.5rem;
+     }
+  .contenedor{
+    background-color: white;
+    align-items: center;
+    height: 100%;
+    margin: none;
+  }
+
+
+

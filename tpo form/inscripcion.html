@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <title>TPO GRUPO 11</title>
+    <link rel="stylesheet" href="styleflex.css">
+</head>
+<body>
+    <header> 
+           
+
+        
+        <nav>
+            <img class="logo" src="img/T (1).png" alt="">
+            <h1 class="instituto">Instituto Virtual de Programación</h1>
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="destinatarios.html">¿Que elegir?</a></l>
+            <li><a href="Inscripcion.html">Inscripcion</a></li>
+            
+         </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="container">
+            <br>
+            <h2>Formulario de Inscripcion</h2>
+            <br>
+            
+            <form id="formulario" novalidate action="https://formspree.io/f/meqdzjol"
+            method="POST" >
+                <div class="form-row">
+                  <label class="col-sm-0 col-form-label">DNI:</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="dni" name="dni" placeholder="Solo numeros / sin puntos">
+                  </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <label class="col-sm-0 col-form-label">Nombre:</label>
+                    <div class="col-4">
+                      <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre completo">
+                    </div>
+                    <label class="col-sm-0 col-form-label">Correo Electonico:</label>
+                    <div class="col">
+                      <input type="email" id="email" name="email" class="form-control" placeholder="ejemplo@gmail.com">
+                    </div>
+                </div>
+                <br>
+                <div class="form-group row">
+                  <label  class="col-sm-2 col-form-label">Fecha de Nacimiento:</label>
+                  <div class="col-sm-4">
+                    <input type="date" class="form-control" id="fechnac" nombre="fechnac">
+                  </div>
+                </div>
+                <br>
+                <div class="form-row">
+                    <label  class="col-sm-2 col-form-label">Genero:</label>
+                <select class="col-sm-2 col-form-label" id="genero" name="genero">
+                    <option selected value="Mujer">Mujer</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Otros">Otros</option>
+                  </select>
+                </div>
+                <br>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-2 pt-0">Curso:</legend>
+                    <div class="col-sm-10">
+                      <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="curso" id="curso" value="Introduccion a la programacion" checked>
+                        <label class="form-check-label">Introducción a la programación</label>
+                      </div>
+                      <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="curso" id="curso" value="Fullstack Developer">
+                        <label class="form-check-label">Fullstack Developer</label>
+                      </div>
+                      <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="curso" id="curso" value="Data Analytics">
+                        <label class="form-check-label">Data Analytics</label>
+                      </div>
+                      <div class="form-check-inline">
+                        <input class="form-check-input" type="radio" name="curso" id="curso" value="Data Science">
+                        <label class="form-check-label">Data Science</label>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              
+                <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="reset" class="btn btn-primary">Borrar</button>
+                  </div>
+                </div>
+              </form>
+
+          </div>
+
+    </main>
+<script src="validacion.js"></script>
+
+    <footer>
+        <div  class="pie">
+            <p>&ltp&gtSi se puede imaginar, se puede programar&lt/p&gt</p>
+        </div>
+    </footer>
+</body>
+</html>
