@@ -6,8 +6,8 @@
 }
 
 /* armamos 3 tipos de estilos diferentes, dependiendo del tamaño de pantalla, tanto del menu como del tamaño del main */
-
-
+ /* al pasar el mouse sobre el menu, relizamos una transforcion/ animacion con los colores
+realizamos el menu utilizando flexbox */
 @media screen and (max-width: 640px) {
 
   header{
@@ -48,10 +48,13 @@ nav li a {
 
 
   }
-  /* definimos que pasa cuando acercamos el mouse a las opciones del menu */
+  /* definimos que pasa cuando acercamos el mouse a las opciones del menu. Utilizamos una animacion/transforcion */
   nav li a:hover {
     background: blue;
     color: white;
+    transition-property: all; 
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in;
   }
 
   
@@ -122,10 +125,13 @@ main{
   
   
     }
-    /* definimos que pasa cuando acercamos el mouse a las opciones del menu */
+    /* definimos que pasa cuando acercamos el mouse a las opciones del menu . utilizamos una transformacion/animacion*/
     nav li a:hover {
       background: blue;
       color: white;
+      transition-property: all; 
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in;
     }
   
     
@@ -206,10 +212,13 @@ nav li a {
 
 
 }
-/* definimos que pasa cuando acercamos el mouse a las opciones del menu */
+/* definimos que pasa cuando acercamos el mouse a las opciones del menu. utilizamos una transicion/animacion entre colores*/
 nav li a:hover {
   background: blue;
   color: white;
+  transition-property: all; 
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in;
 }
 
 
