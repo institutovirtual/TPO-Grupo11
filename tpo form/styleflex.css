@@ -155,6 +155,138 @@ realizamos el menu utilizando flexbox */
     width: 100%;
     margin: none;
   }
+  
+  /* definimos el formato y colores del Index*/
+  .sec-historia{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+  }
+    .cajaindex{
+      display: block;
+      padding: 0.8rem;
+      border: 0.4rem ;
+      border-style: solid;
+      border-radius: 0.6rem;
+      border-color: rgb(11, 53, 77);
+      margin: 0.5rem;
+      width: 100%;
+      text-align: center;
+      text-decoration-color: rgb(11, 53, 77);
+    }
+  .sec-misvis{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    }
+  .cajamision{
+    display: flex;
+    margin: 0.6 rem;
+    text-align: justify;
+  }
+  .mision{
+    display: block;
+    padding: 0.8rem;
+    border: 0.4rem ;
+    border-style: solid;
+    border-radius: 0.6rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.5rem;
+    width:100%;
+    text-align: left;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgmision{
+    border: 0.5rem;
+    border-radius: 0.4rem;
+    height: 20vh;
+    margin: 0.4rem;
+    align-content: justify;
+    float: left;
+  }
+  .cajavision{
+    display: flex;
+    margin: 0.6 rem;
+    text-align: justify;
+  }
+  .vision{
+    display: block;
+    padding: 0.8rem;
+    border: 0.4rem ;
+    border-style: solid;
+    border-radius: 0.6rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.5rem;
+    width:100%;
+    text-align: left;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgvision{
+    border: 0.5rem;
+    border-radius: 0.4rem;
+    height: 20vh;
+    margin: 0.4rem;
+    align-content: justify;
+    float: left;
+  }
+
+  .contacto{
+    font-weight: bold;
+  }
+
+  /* definimos el formato y colores de la solapa cursos*/
+  .sectipocurso{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    }
+  .caja-curso{
+    display: flex;
+    margin: 0.4 rem;
+    text-align: left;
+  }
+  
+  .tipocursodiv{
+    display: block;
+    padding: 0.5rem;
+    border: 0.2rem ;
+    border-style: solid;
+    border-radius: 0.4rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.3rem;
+    width: 100%;
+    text-align: left;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgcurso{
+    
+    height: 10vh;
+    margin:auto;
+    display: block;
+  }
+
+
+  /* definimos tamaño del pie de pagina*/
+  footer{
+    background: rgb(6, 122, 189);
+    height: 2.6rem;
+    color: white;
+    text-align: center;
+    margin-top: 0.3rem;
+    padding: 0.2rem;
+  }
+
+  .pie{
+    line-height: 2rem;
+  }
+
+  .contenedor{
+    background-color: white;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: none;
+  }
 }
   
 @media screen and (min-width: 640px) and (max-width: 900px) {
@@ -303,6 +435,191 @@ realizamos el menu utilizando flexbox */
     margin: none;
   }
 
+  /* definimos el formato y colores del Index*/
+  .sec-historia{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+  }
+    .cajaindex{
+      display: block;
+      padding: 0.8rem;
+      border: 0.4rem ;
+      border-style: solid;
+      border-radius: 0.6rem;
+      border-color: rgb(11, 53, 77);
+      margin: 0.5rem;
+      width: 100%;
+      text-align: center;
+      text-decoration-color: rgb(11, 53, 77);
+    }
+  .sec-misvis{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    }
+  .cajamision{
+    display: flex;
+    margin: 0.6 rem;
+    text-align: justify;
+  }
+  .mision{
+    display: block;
+    padding: 0.8rem;
+    border: 0.4rem ;
+    border-style: solid;
+    border-radius: 0.6rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.5rem;
+    width:100%;
+    text-align: justify;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgmision{
+    border: 0.5rem;
+    border-radius: 0.4rem;
+    height: 20vh;
+    margin: 0.4rem;
+    align-content: justify;
+    float: left;
+  }
+  .cajavision{
+    display: flex;
+    margin: 0.6 rem;
+    text-align: justify;
+  }
+  .vision{
+    display: block;
+    padding: 0.8rem;
+    border: 0.4rem ;
+    border-style: solid;
+    border-radius: 0.6rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.5rem;
+    width:100%;
+    text-align: justify;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgvision{
+    border: 0.5rem;
+    border-radius: 0.4rem;
+    height: 20vh;
+    margin: 0.4rem;
+    align-content: justify;
+    float: left;
+  }
+
+  .contacto{
+    font-weight: bold;
+  }
+
+  /* definimos el formato y colores de la solapa cursos*/
+  .sectipocurso{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    }
+  .caja-curso{
+    display: flex;
+    margin: 0.4 rem;
+    text-align: justify;
+  }
+  .tipocursodiv{
+    display: block;
+    padding: 0.5rem;
+    border: 0.2rem ;
+    border-style: solid;
+    border-radius: 0.4rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.3rem;
+    width: 100%;
+    text-align: left;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgcurso{
+    
+    height: 20vh;
+    margin:auto;
+    display: block;
+  }
+
+  
+
+  /* definimos el formato y colores de la solapa cursos*/
+  .sectipocurso{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    }
+  .caja-curso{
+    display: flex;
+    margin: 0.4 rem;
+    text-align: justify;
+  }
+  .tipocursodiv{
+    display: block;
+    padding: 0.5rem;
+    border: 0.2rem ;
+    border-style: solid;
+    border-radius: 0.4rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.3rem;
+    width: 100%;
+    text-align: justify;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgcurso{
+    
+    height: 15vh;
+    margin:auto;
+    display: block;
+  }
+
+
+
+  /* definimos tamaño del pie de pagina*/
+  footer{
+    background: rgb(6, 122, 189);
+    height: 2.6rem;
+    color: white;
+    text-align: center;
+    margin-top: 0.3rem;
+    padding: 0.2rem;
+  }
+
+  .pie{
+    line-height: 2rem;
+  }
+
+  .contenedor{
+    background-color: white;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: none;
+  }
+  
+  /* definimos tamaño del pie de pagina*/
+  footer{
+    background: rgb(6, 122, 189);
+    height: 2.6rem;
+    color: white;
+    text-align: center;
+    margin-top: 0.3rem;
+    padding: 0.2rem;
+  }
+
+  .pie{
+    line-height: 2rem;
+  }
+
+  .contenedor{
+    background-color: white;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: none;
+  }
 }
   
 @media screen and (min-width: 900px) {
@@ -421,12 +738,121 @@ realizamos el menu utilizando flexbox */
   }
 
   .imgdestinatarios{
+    border: 0.8rem;
+    border-radius: 0.6rem;
+    height: 20vh;
+    margin: 0.6rem;
+    align-content: center;
+  }
+  /* definimos el formato y colores del Index*/
+  .sec-historia{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+  }
+    .cajaindex{
+      display: block;
+      padding: 0.8rem;
+      border: 0.4rem ;
+      border-style: solid;
+      border-radius: 0.6rem;
+      border-color: rgb(11, 53, 77);
+      margin: 0.5rem;
+      width: 100%;
+      text-align: center;
+      text-decoration-color: rgb(11, 53, 77);
+    }
+  .sec-misvis{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    }
+  .cajamision{
+    display: flex;
+    margin: 0.6 rem;
+    text-align: justify;
+  }
+  .mision{
+    display: block;
+    padding: 0.8rem;
+    border: 0.4rem ;
+    border-style: solid;
+    border-radius: 0.6rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.5rem;
+    width:100%;
+    text-align: justify;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgmision{
     border: 0.5rem;
     border-radius: 0.4rem;
     height: 20vh;
     margin: 0.4rem;
-    align-content: center;
+    align-content: justify;
+    float: left;
   }
+  .cajavision{
+    display: flex;
+    margin: 0.6 rem;
+    text-align: justify;
+  }
+  .vision{
+    display: block;
+    padding: 0.8rem;
+    border: 0.4rem ;
+    border-style: solid;
+    border-radius: 0.6rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.5rem;
+    width:100%;
+    text-align: justify;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgvision{
+    border: 0.5rem;
+    border-radius: 0.4rem;
+    height: 20vh;
+    margin: 0.4rem;
+    align-content: justify;
+    float: left;
+  }
+
+  .contacto{
+    font-weight: bold;
+  }
+
+  /* definimos el formato y colores de la solapa cursos*/
+  .sectipocurso{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+    }
+  .caja-curso{
+    display: flex;
+    margin: 0.4 rem;
+    text-align: justify;
+  }
+  .tipocursodiv{
+    display: block;
+    padding: 0.5rem;
+    border: 0.2rem ;
+    border-style: solid;
+    border-radius: 0.4rem;
+    border-color: rgb(11, 53, 77);
+    margin: 0.3rem;
+    width: 100%;
+    text-align: justify;
+    text-decoration-color: rgb(11, 53, 77);
+  }
+  .imgcurso{
+    
+    height: 20vh;
+    margin:auto;
+    display: block;
+  }
+
+
 
   /* definimos tamaño del pie de pagina*/
   footer{
