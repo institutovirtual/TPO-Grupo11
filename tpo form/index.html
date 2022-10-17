@@ -13,8 +13,8 @@
    </head>
 <body>
     <header> 
-           
-
+        
+       
         <!-- creacion del encabezado. que contendra el logo y nombre del instituto y la barra de navegacion. Utilizando flexbox. -->
         <nav>
             <img class="logo" src="img/T (1).png" alt="">
@@ -97,12 +97,24 @@
             </a>
             </p>
         </section>
-                       
+        <!-- agregamos la fecha ya la hora obtenidas mediante la API World Time API, muestra fecha y hora segun ubicacion por ip -->
+        <span id="fecha" class="fechayhora" ></span>
+        <span id="hora" class="fechayhora"></span> 
+        <script src="api_time.js"></script> 
+        
+
+
     </main>
     <footer>
         <div  class="pie">
             <p>&ltp&gtSi se puede imaginar, se puede programar&lt/p&gt</p>
+            
+        
         </div>
+        
+          
+        
+        
     </footer>
 </body>
 </html>
