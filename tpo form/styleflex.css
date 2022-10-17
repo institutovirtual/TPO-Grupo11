@@ -4,7 +4,10 @@
      font-family: fontinstituto;
     src: url(fonts/HTOWERT.TTF);
 }
+.fechayhora{
+color:#0b354d;
 
+}
 /* armamos 3 tipos de estilos diferentes, dependiendo del tamaño de pantalla, tanto del menu como del tamaño del main */
  /* al pasar el mouse sobre el menu, relizamos una transforcion/ animacion con los colores
 realizamos el menu utilizando flexbox */

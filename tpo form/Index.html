@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPO GRUPO 11</title>
+    <!-- bootstrap/ solo es utilizado en inscripcion.html -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styleflex.css">
+    <script src="https://kit.fontawesome.com/b53d2aa30c.js" crossorigin="anonymous"></script>
+
+   </head>
+<body>
+    <header> 
+        
+       
+        <!-- creacion del encabezado. que contendra el logo y nombre del instituto y la barra de navegacion. Utilizando flexbox. -->
+        <nav>
+            <img class="logo" src="img/T (1).png" alt="">
+            <h1 class="instituto">Instituto Virtual de Programación</h1>
+            <!-- creamos la barra de navegacion -->
+            <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
+            <li><a href="destinatarios.html">¿Qué elegir?</a></l>
+            <li><a href="Inscripcion.html">Inscripción</a></li>
+            
+         </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="sec-historia">
+            <div class="cajaindex">
+                <h2>Nuestra Historia</h2>
+                <div class="cajahistoria">
+                        <p>
+                        Somos un grupo de profesionales del área IT que a lo largo 
+                        de nuestras carreras laborales detectamos un déficit de competencias 
+                        digitales básicas en los postulantes. Por lo cual decidimos que 
+                        podíamos cambiar esta realidad creando un instituto de formación 
+                        digital que pueda acercar cursos virtuales de todos los niveles, con 
+                        distintas modalidades de cursada para que pueda adaptarse a las diversas 
+                        necesidades del mercado.</p>
+                        <p>
+                        Creemos que el futuro de todos los trabajadores va a estar vinculado al 
+                        mundo digital. Tenemos experiencia en adaptar ámbitos analógicos a entornos 
+                        digitales. Podemos ayudarte a ser parte de esta transición. Asumimos el 
+                        compromiso de brindar soluciones educativas informáticas a personas de 
+                        habla hispana del país, la región y del mundo. Ofreciendo metodologías de 
+                        estudio y cursada que se adaptan a todo tipo de situación. 
+                        </p>
+                        <p>
+                        Proyectamos ampliar anualmente los cursos ofrecidos, modernizar las 
+                        curriculas y otorgarles a nuestros ex-alumnos la posibilidad de actualizar 
+                        conocimientos. Desarrollamos un grupo de apoyo de docentes, alumnos y 
+                        ex-alumnos que se retroalimenta continuamente. Estamos enfocados en lograr 
+                        nuestros objetivos, te invitamos a ser parte de esta revolución digital. 
+
+                        </p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <section class="sec-misvis">
+            <div class="cajamision">
+                    <div class="mision">
+                    <img class="imgmision" src="img/Mision.png" alt="Mision">
+                        <h4>Misión</h4>
+                        <p>Formar profesionales desde cualquier lugar del planeta en competencias 
+                        digitales para que puedan desarrollarse en el mercado laboral del futuro.
+                        </p>
+                    </div>
+
+            </div>
+        
+            <div class="cajavision">
+                    <div class="vision">
+                    <img class="imgvision" src="img/Vision.png" alt="Vision">
+                        <h4>Visión</h4>
+                        <p>Facilitar el acceso a la educación digital innovando en las metodologías
+                         de estudio, evaluación y adaptando los cursos a las diversas realidades de cada estudiante.
+                        </p>
+                    </div>
+
+            </div>
+        </section>
+
+        <section class="contacto">
+            <h4>Contactanos</h4>
+            <p> Instagram <a href="https://www.instagram.com/institutovirtualdeprogramacion/" target="_blank"> <i class="fa-brands fa-square-instagram fa-xl fa-beat" style="color: #0b354d"></i>
+            </a>
+            </p>
+            <p> Linkedin
+            <a href="https://www.linkedin.com/in/instituto-virtual-de-programacion/" target="_blank"> <i class="fa-brands fa-linkedin fa-xl fa-beat" style="color: #0b354d"></i>
+            </a>
+            </p>
+        </section>
+        <!-- agregamos la fecha ya la hora obtenidas mediante la API World Time API, muestra fecha y hora segun ubicacion por ip -->
+        <span id="fecha" class="fechayhora" ></span>
+        <span id="hora" class="fechayhora"></span> 
+        <script src="api_time.js"></script> 
+        
+
+
+    </main>
+    <footer>
+        <div  class="pie">
+            <p>&ltp&gtSi se puede imaginar, se puede programar&lt/p&gt</p>
+            
+        
+        </div>
+        
+          
+        
+        
+    </footer>
+</body>
+</html>
