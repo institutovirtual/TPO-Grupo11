@@ -1,4 +1,4 @@
-const apiUrl = "http://worldtimeapi.org/api/ip"
+const apiUrl = "https://worldtimeapi.org/api/ip"
 
 async function obtenerfechahora(){
     const response = await fetch(apiUrl)
