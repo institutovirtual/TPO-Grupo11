@@ -179,7 +179,7 @@ realizamos el menu utilizando flexbox */
     position: relative;
     margin: 0.3 rem;
     align-content: center;
-    text-align: justify;
+    text-align: left;
     align-items: center;
   }
 
@@ -626,7 +626,7 @@ realizamos el menu utilizando flexbox */
     border-color: rgb(11, 53, 77);
     margin: 0.3rem;
     width: 100%;
-    text-align: justify;
+    text-align: left;
     text-decoration-color: rgb(11, 53, 77);
   }
 
