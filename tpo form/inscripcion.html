@@ -30,6 +30,25 @@
         
     </header>
     <main>
+        <!-- agregamos la fecha ya la hora obtenidas mediante la API World Time API, muestra fecha y hora segun ubicacion por ip -->
+        <section class="horario">
+          <div class="fecha">
+              <p> <i class="fa-regular fa-calendar-days"></i>
+                  Fecha:
+                  <span id="fecha" class="fechayhora" ></span>
+                  <script src="js/api_time.js"></script> 
+              </p>  
+          </div>
+
+          <div class="hora">
+              <p> <i class="fa-solid fa-clock"></i>
+                  Hora:
+                  <span id="hora" class="fechayhora"></span> 
+                  <script src="js/api_time.js"></script>
+              </p>
+          </div>
+      </section>
+      <br>
         <div class="container">
             <br>
             <h2>Formulario de Inscripción</h2>
@@ -94,7 +113,7 @@
                     </div>
                   </div>
                 </fieldset>
-              
+                <br>
                 <div class="form-group row">
                   <div class="col-sm-10">
                     <button type="submit" class="btn btn-primary">Enviar</button>
@@ -104,30 +123,26 @@
               </form>
 
           </div>
-
-          <section class="contacto">
-            <h4>Contactanos</h4>
-            <p> Instagram <a href="https://www.instagram.com/institutovirtualdeprogramacion/" target="_blank"> <i class="fa-brands fa-square-instagram fa-xl fa-beat" style="color: #0b354d"></i>
-            </a>
-            </p>
-            <p> Linkedin
-            <a href="https://www.linkedin.com/in/instituto-virtual-de-programacion/" target="_blank"> <i class="fa-brands fa-linkedin fa-xl fa-beat" style="color: #0b354d"></i>
-            </a>
-            </p>
-        </section>
- <!-- agregamos la fecha ya la hora obtenidas mediante la API World Time API, muestra fecha y hora segun ubicacion por ip -->
- <span id="fecha" class="fechayhora" ></span>
- <span id="hora" class="fechayhora"></span> 
- <script src="js/api_time.js"></script> 
+ 
     </main>
 <script src="js/validacion.js"></script>
 
 
 
     <footer>
-        <div  class="pie">
-            <p>&ltp&gtSi se puede imaginar, se puede programar&lt/p&gt</p>
-        </div>
+      <div>
+        <p class="seguinos">&nbsp &nbsp <i class="fa fa-bars fa-2x fa-thumbs-up"></i>
+            &nbsp Seguinos en: &nbsp
+            &nbsp
+            Instagram &nbsp <a href="https://www.instagram.com/institutovirtualdeprogramacion/" target="_blank"> <i class="fa-brands fa-square-instagram fa-xl fa-beat" style="color: #0b354d"></i></a>&nbsp
+            &nbsp &nbsp 
+            Linkedin &nbsp <a href="https://www.linkedin.com/in/instituto-virtual-de-programacion/" target="_blank"> <i class="fa-brands fa-linkedin fa-xl fa-beat" style="color: #0b354d"></i></a>
+        </p>
+    </div>
+    <br>
+    <div  class="pie">
+        <p>&ltp&gtSi se puede imaginar, se puede programar&lt/p&gt</p>
+    </div>
     </footer>
 </body>
 </html>
