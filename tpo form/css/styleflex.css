@@ -1,10 +1,5 @@
 
-/* body{
-  margin: 0 auto;
-  width: 100%;
-  min-width:320px;
-  max-width:2000px
-} */
+
 
 
 /* definimos la fuente "fontinstituto" para utilizar en el nombre del .instituto*/
@@ -22,11 +17,7 @@
 realizamos el menu utilizando flexbox */
 @media screen and (max-width: 640px) {
 
-  /* body{
-    
-    min-width: 320px;
-    max-width: 640px
-  } */
+ 
 
   header{
     background: white; 
@@ -272,13 +263,7 @@ realizamos el menu utilizando flexbox */
     height: 16vh;
     margin: auto;
   }
-  /* height: 16vh;
-  margin:auto;
-  display: block; */
-  /* .contacto{
-    font-weight: bold;
-  } */
-
+  
   /* definimos el formato y colores de la solapa cursos*/
   .sectipocurso{
     /* display: flex; */
@@ -570,12 +555,7 @@ realizamos el menu utilizando flexbox */
     margin: 0.8 rem;
     text-align: justify;
     width: 50%;
-    /* display: block;
-    position: relative;
-    margin: 0.6 rem;
-    align-content: center;
-    text-align: justify;
-    align-items: center; */
+    
   }
 
   .vision{
@@ -600,9 +580,7 @@ realizamos el menu utilizando flexbox */
     float: left;
   }
 
-  /* .contacto{
-    font-weight: bold;
-  } */
+  
 
   /* definimos el formato y colores de la solapa cursos*/
   .sectipocurso{
